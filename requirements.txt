@@ -1,0 +1,4 @@
+flask
+flask_mysqldb
+pandas
+py_eureka_client
