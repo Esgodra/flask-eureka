@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route("/servicio", methods=['POST'])
 def service():
-	responde = {}
+	response = {}
 	response['data'] = [{"frijol":"25","arroz":"26","harina":"10", "papa":"50"}]
 	response['status'] = "Success"
 	response['detail'] = ""
