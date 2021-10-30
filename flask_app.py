@@ -9,7 +9,7 @@ eureka_client.init(eureka_server="http://localhost:8080/eureka",
 
 app = Flask(__name__)
 
-@app.route("/servicio", methods=['POST'])
+@app.route("/servicio", methods=['GET'])
 def service():
 	response = {}
 	response['data'] = [{"frijol":"25","arroz":"26","harina":"10", "papa":"50"}]
